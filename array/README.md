@@ -1,37 +1,37 @@
 # Array Folder
 
-इस फ़ोल्डर में C++ में एरे ऑपरेशन्स के बेसिक प्रोग्राम हैं।
+This folder contains basic C++ array operation programs.
 
-## फ़ाइलें और थ्योरी
+## Files and Theory
 
 - `largest.cpp`
-  - थीम: किसी एरे में सबसे बड़ी (maximum) संख्या खोजना।
-  - थ्योरी: एक लूप में एरे के सभी एलिमेंट्स को चेक करके मैक्स वैल्यू को अपडेट किया जाता है।
+  - Theme: Finding the largest (maximum) number in an array.
+  - Theory: Loop through all array elements and update the maximum value when a larger element is found.
 
 - `smallest.cpp`
-  - थीम: किसी एरे में सबसे छोटी (minimum) संख्या ढूंढना।
-  - थ्योरी: मैक्स के समान ही, मिन वैल्यू को ट्रैक करना होता है और हर एलिमेंट से तुलना करनी होती है।
+  - Theme: Finding the smallest (minimum) number in an array.
+  - Theory: Track the minimum value and compare each array element to update it.
 
 - `linearSearch.cpp`
-  - थीम: सीक्वेंशियल सर्च या लीनियर सर्च।
-  - थ्योरी: एरे को शुरू से अंत तक स्कैन किया जाता है और टारगेट वैल्यू मिलने पर उसका इंडेक्स लौटाया जाता है।
+  - Theme: Sequential search or linear search.
+  - Theory: Scan the array from start to end and return the index when the target value is found.
 
 - `reverseArray.cpp`
-  - थीम: एरे के एलिमेंट्स को उल्टा करना।
-  - थ्योरी: दो-इंडेक्स टेक्निक से सामने और पीछे से एलिमेंट्स को स्वैप किया जाता है।
+  - Theme: Reversing the elements of an array.
+  - Theory: Use two indices to swap elements from the front and back until the middle.
 
 - `maxOfSubarray.cpp`
-  - थीम: एरे के किसी सबएरे का अधिकतम मान या सबएरे मैक्स निकालना।
-  - थ्योरी: यह आमतौर पर सबएरे पर लूप और संभावित सबएरे को चेक करके किया जाता है; अगर यह मैक्स सबएरे सम प्रॉब्लम है तो करान की एल्गोरिथ्म काम में आ सकता है।
+  - Theme: Finding the maximum value in a subarray.
+  - Theory: Check possible subarrays to determine the maximum value; this is related to subarray problems like maximum subarray sum.
 
 - `practiseofarray.cpp`
-  - थीम: एरे के सामान्य अभ्यास जैसे इनपुट, आउटपुट, जोड़ना या गणना।
-  - थ्योरी: एरे को समझने के लिए कई छोटे वर्कआउट्स शामिल होते हैं।
+  - Theme: Basic array practice with input, output, sum, or calculation examples.
+  - Theory: Includes small exercises to help understand array handling.
 
 - `practiseset2.cpp`
-  - थीम: एरे का दूसरा सेट प्रैक्टिस।
-  - थ्योरी: बुनियादी एरे ऑपरेशन्स और समस्याओं का अभ्यास।
+  - Theme: A second practice set for arrays.
+  - Theory: Practice basic array operations and related problems.
 
-## नोट
+## Note
 
-इस फ़ोल्डर में `a.exe` और `smallest.exe` कंपाइल्ड बायनरी फाइलें हैं; मुख्य ध्यान `.cpp` स्रोत कोड पर होना चाहिए।
+This folder contains compiled binaries `a.exe` and `smallest.exe`; the main focus should be on the `.cpp` source files.

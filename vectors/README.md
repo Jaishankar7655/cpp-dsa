@@ -1,13 +1,13 @@
 # Vectors Folder
 
-यह फ़ोल्डर C++ `vector` कंटेनर के बेसिक उपयोग के उदाहरण देता है।
+This folder provides basic examples of using the C++ `vector` container.
 
-## फ़ाइलें और थ्योरी
+## Files and Theory
 
 - `code.cpp`
-  - थीम: C++ `vector` का परिचय और सरल ऑपरेशन्स।
-  - थ्योरी: `vector` डायनामिक एरे है जो रनटाइम पर आकार बदल सकता है। इसमें `push_back`, `size`, `at`, इंडेक्सिंग और लूप से इटरेशन जैसे ऑपरेशन्स होते हैं।
+  - Theme: Introduction to C++ `vector` and simple operations.
+  - Theory: `vector` is a dynamic array that can resize at runtime. It supports operations like `push_back`, `size`, `at`, indexing, and iteration with loops.
 
-## नोट
+## Note
 
-`vector` बेहतर है जब आपको रनटाइम पर डेटा की संख्या का पता नहीं होता या बदल सकती है।
+`vector` is useful when the number of elements is unknown at compile time or may change at runtime.

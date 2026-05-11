@@ -1,17 +1,17 @@
 # Binary Folder
 
-यह फ़ोल्डर संख्या प्रणाली (number systems) और उनके बीच कन्वर्शन के उदाहरण देता है।
+This folder contains examples of number system conversions.
 
-## फ़ाइलें और थ्योरी
+## Files and Theory
 
 - `binaryToDecimal.cpp`
-  - थीम: बाइनरी (binary) से डेसिमल (decimal) में कन्वर्शन।
-  - थ्योरी: बाइनरी की प्रत्येक बिट को पोज़िशन के आधार पर 2 की घात से गुणा करके जोड़ा जाता है।
+  - Theme: Converting binary to decimal.
+  - Theory: Multiply each binary bit by 2 raised to the bit position and sum the results.
 
 - `decimalToBinary.cpp`
-  - थीम: डेसिमल से बाइनरी में कन्वर्शन।
-  - थ्योरी: डेसिमल नंबर को 2 से रेपिटेड डिवाइड करके रिमेंडर हासिल किया जाता है और उसे रिवर्स करके बाइनरी बनता है।
+  - Theme: Converting decimal to binary.
+  - Theory: Divide the decimal number repeatedly by 2, collect remainders, and reverse them to create the binary representation.
 
-## नोट
+## Note
 
-यहां `a.exe` कंपाइल्ड बाइनरी है; मुख्य अध्ययन `.cpp` फ़ाइलों पर केंद्रित होना चाहिए।
+This folder contains a compiled binary `a.exe`; focus on the `.cpp` source files for learning.

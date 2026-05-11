@@ -1,18 +1,18 @@
 # Functions Folder
 
-यह फ़ोल्डर C++ में फ़ंक्शन के उपयोग के बारे में सरल उदाहरण देता है।
+This folder contains simple examples of using functions in C++.
 
-## फ़ाइलें और थ्योरी
+## Files and Theory
 
 - `factorialfunction.cpp`
-  - थीम: फ़ैक्टोरियल निकालना फ़ंक्शन से।
-  - थ्योरी: फ़ंक्शन को इनपुट देने पर वह रिकार्सिव या इटरेटिव तरीके से फ़ैक्टोरियल कैलकुलेट कर सकता है और रिज़ल्ट रिटर्न करता है।
+  - Theme: Calculating factorial using a function.
+  - Theory: A function takes input and computes the factorial either recursively or iteratively, then returns the result.
 
 - `sumfunctions.cpp`
-  - थीम: दो या अधिक संख्याओं का योग करने के लिए फ़ंक्शन का उपयोग।
-  - थ्योरी: फ़ंक्शन पैरामीटर लेता है, प्रोसेस करता है और रिज़ल्ट रिटर्न करता है। यह कोड को मॉड्यूलर और रीयूजबल बनाता है।
+  - Theme: Using a function to sum two or more numbers.
+  - Theory: The function receives parameters, processes them, and returns the result. This makes code modular and reusable.
 
-## फ़ंक्शन की मूल बातें
+## Function Basics
 
-- फ़ंक्शन कोड को व्यवस्थित करता है और उसे दोबारा उपयोग करने योग्य बनाता है।
-- इनपुट पैरामीटर, रिटर्न टाइप और बॉडी सबसे महत्वपूर्ण भाग हैं।
+- Functions organize code and make it reusable.
+- Input parameters, return type, and function body are the most important parts.
